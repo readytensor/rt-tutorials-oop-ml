@@ -1,0 +1,41 @@
+{
+  "problemCategory": "binary_classification_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "binaryClassificationBaseMainInput": {
+      "idField": "PassengerId",
+      "targetField": "Survived",
+      "targetClass": 1,
+      "predictorFields": [
+        {
+          "fieldName": "Pclass",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Sex",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Age",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SibSp",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Parch",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Fare",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Embarked",
+          "dataType": "CATEGORICAL"
+        }
+      ]
+    }
+  }
+}
