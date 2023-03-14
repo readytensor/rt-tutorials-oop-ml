@@ -14,7 +14,7 @@ The `app/` folder in the repository contains the following key folders/sub-folde
 - `inputs/` contains the input files related to the _titanic_ dataset.
 - `model/` is a folder to save model artifacts and other assets specific to the trained model. Within this folder:
   - `artifacts/` is location to save model artifacts (i.e. the saved model including the trained preprocessing pipeline)
-- `outputs/` is used to contain the predictions or other results files (functionality not included in this repo).
+- `outputs/` is used to contain the predictions or other results files. When the `test.py` script is run, a predictions file called `predictions.csv` is saved in `outputs/testing_outputs/` sub-directory.
 
 See the following repository for information on the use of the data schema that is provided in the path `./app/inputs/data_config/`.
 
